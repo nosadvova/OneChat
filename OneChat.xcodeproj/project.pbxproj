@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		67D913402944A1A00079A5EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D9133F2944A1A00079A5EE /* AppDelegate.swift */; };
 		67D913422944A1A00079A5EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D913412944A1A00079A5EE /* SceneDelegate.swift */; };
-		67D913442944A1A00079A5EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D913432944A1A00079A5EE /* ViewController.swift */; };
 		67D913472944A1A00079A5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D913452944A1A00079A5EE /* Main.storyboard */; };
 		67D913492944A1A20079A5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D913482944A1A20079A5EE /* Assets.xcassets */; };
 		67D9134C2944A1A20079A5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D9134A2944A1A20079A5EE /* LaunchScreen.storyboard */; };
 		67D913572944A1A20079A5EE /* OneChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D913562944A1A20079A5EE /* OneChatTests.swift */; };
 		67D913612944A1A20079A5EE /* OneChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D913602944A1A20079A5EE /* OneChatUITests.swift */; };
 		67D913632944A1A20079A5EE /* OneChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D913622944A1A20079A5EE /* OneChatUITestsLaunchTests.swift */; };
+		67D913742944AB530079A5EE /* MainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D913732944AB530079A5EE /* MainPageVC.swift */; };
+		67D913782944AB700079A5EE /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D913772944AB700079A5EE /* RegisterVC.swift */; };
+		67D9137A2944AB7C0079A5EE /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D913792944AB7C0079A5EE /* ChatVC.swift */; };
+		67E996B12944FD6500FE43EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67E996B02944FD6500FE43EA /* GoogleService-Info.plist */; };
+		67FBDBF829460ABE0030B3BD /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBDBF729460ABE0030B3BD /* LoginVC.swift */; };
+		67FBDBFA294622ED0030B3BD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBDBF9294622ED0030B3BD /* Message.swift */; };
+		67FBDBFF29462A390030B3BD /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBDBFD29462A390030B3BD /* MessageCell.swift */; };
+		67FBDC0029462A390030B3BD /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FBDBFE29462A390030B3BD /* MessageCell.xib */; };
+		BD65439609FCECECCF9C37AF /* Pods_OneChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7841823FBC52C4130813B472 /* Pods_OneChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,6 @@
 		67D9133C2944A1A00079A5EE /* OneChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D9133F2944A1A00079A5EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67D913412944A1A00079A5EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67D913432944A1A00079A5EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67D913462944A1A00079A5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67D913482944A1A20079A5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67D9134B2944A1A20079A5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		67D9135C2944A1A20079A5EE /* OneChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D913602944A1A20079A5EE /* OneChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneChatUITests.swift; sourceTree = "<group>"; };
 		67D913622944A1A20079A5EE /* OneChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67D913732944AB530079A5EE /* MainPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageVC.swift; sourceTree = "<group>"; };
+		67D913772944AB700079A5EE /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		67D913792944AB7C0079A5EE /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		67E996B02944FD6500FE43EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67FBDBF729460ABE0030B3BD /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		67FBDBF9294622ED0030B3BD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		67FBDBFD29462A390030B3BD /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		67FBDBFE29462A390030B3BD /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		7841823FBC52C4130813B472 /* Pods_OneChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2405ADCF7329E36838EBF30 /* Pods-OneChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneChat.debug.xcconfig"; path = "Target Support Files/Pods-OneChat/Pods-OneChat.debug.xcconfig"; sourceTree = "<group>"; };
+		FE8A1B893D44F80012539EDF /* Pods-OneChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneChat.release.xcconfig"; path = "Target Support Files/Pods-OneChat/Pods-OneChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD65439609FCECECCF9C37AF /* Pods_OneChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22C5E3FA71810719D66F7DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7841823FBC52C4130813B472 /* Pods_OneChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43E088ABF520DA5D8592ED83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2405ADCF7329E36838EBF30 /* Pods-OneChat.debug.xcconfig */,
+				FE8A1B893D44F80012539EDF /* Pods-OneChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		67D913332944A1A00079A5EE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +119,8 @@
 				67D913552944A1A20079A5EE /* OneChatTests */,
 				67D9135F2944A1A20079A5EE /* OneChatUITests */,
 				67D9133D2944A1A00079A5EE /* Products */,
+				43E088ABF520DA5D8592ED83 /* Pods */,
+				22C5E3FA71810719D66F7DC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +139,12 @@
 			children = (
 				67D9133F2944A1A00079A5EE /* AppDelegate.swift */,
 				67D913412944A1A00079A5EE /* SceneDelegate.swift */,
-				67D913432944A1A00079A5EE /* ViewController.swift */,
-				67D913452944A1A00079A5EE /* Main.storyboard */,
-				67D913482944A1A20079A5EE /* Assets.xcassets */,
-				67D9134A2944A1A20079A5EE /* LaunchScreen.storyboard */,
+				67D913712944AADB0079A5EE /* Model */,
+				67D913702944AAD10079A5EE /* View */,
+				67D9136F2944AAC40079A5EE /* Controllers */,
+				67D913722944AB200079A5EE /* Another */,
 				67D9134D2944A1A20079A5EE /* Info.plist */,
+				67E996B02944FD6500FE43EA /* GoogleService-Info.plist */,
 			);
 			path = OneChat;
 			sourceTree = "<group>";
@@ -127,6 +166,44 @@
 			path = OneChatUITests;
 			sourceTree = "<group>";
 		};
+		67D9136F2944AAC40079A5EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67D913732944AB530079A5EE /* MainPageVC.swift */,
+				67D913772944AB700079A5EE /* RegisterVC.swift */,
+				67D913792944AB7C0079A5EE /* ChatVC.swift */,
+				67FBDBF729460ABE0030B3BD /* LoginVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		67D913702944AAD10079A5EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67D913452944A1A00079A5EE /* Main.storyboard */,
+				67FBDBFD29462A390030B3BD /* MessageCell.swift */,
+				67FBDBFE29462A390030B3BD /* MessageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67D913712944AADB0079A5EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67FBDBF9294622ED0030B3BD /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67D913722944AB200079A5EE /* Another */ = {
+			isa = PBXGroup;
+			children = (
+				67D913482944A1A20079A5EE /* Assets.xcassets */,
+				67D9134A2944A1A20079A5EE /* LaunchScreen.storyboard */,
+			);
+			path = Another;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67D913662944A1A20079A5EE /* Build configuration list for PBXNativeTarget "OneChat" */;
 			buildPhases = (
+				D3647B072234D609FEF00E55 /* [CP] Check Pods Manifest.lock */,
 				67D913382944A1A00079A5EE /* Sources */,
 				67D913392944A1A00079A5EE /* Frameworks */,
 				67D9133A2944A1A00079A5EE /* Resources */,
+				EBE2964F025E18A403C3FC19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +310,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67FBDC0029462A390030B3BD /* MessageCell.xib in Resources */,
 				67D9134C2944A1A20079A5EE /* LaunchScreen.storyboard in Resources */,
+				67E996B12944FD6500FE43EA /* GoogleService-Info.plist in Resources */,
 				67D913492944A1A20079A5EE /* Assets.xcassets in Resources */,
 				67D913472944A1A00079A5EE /* Main.storyboard in Resources */,
 			);
@@ -253,14 +334,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D3647B072234D609FEF00E55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE2964F025E18A403C3FC19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneChat/Pods-OneChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneChat/Pods-OneChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneChat/Pods-OneChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67D913382944A1A00079A5EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D913442944A1A00079A5EE /* ViewController.swift in Sources */,
+				67D9137A2944AB7C0079A5EE /* ChatVC.swift in Sources */,
+				67FBDBFF29462A390030B3BD /* MessageCell.swift in Sources */,
 				67D913402944A1A00079A5EE /* AppDelegate.swift in Sources */,
+				67D913742944AB530079A5EE /* MainPageVC.swift in Sources */,
+				67D913782944AB700079A5EE /* RegisterVC.swift in Sources */,
 				67D913422944A1A00079A5EE /* SceneDelegate.swift in Sources */,
+				67FBDBF829460ABE0030B3BD /* LoginVC.swift in Sources */,
+				67FBDBFA294622ED0030B3BD /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +560,7 @@
 		};
 		67D913672944A1A20079A5EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2405ADCF7329E36838EBF30 /* Pods-OneChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +574,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +590,7 @@
 		};
 		67D913682944A1A20079A5EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8A1B893D44F80012539EDF /* Pods-OneChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +604,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
