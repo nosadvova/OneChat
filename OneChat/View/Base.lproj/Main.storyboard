@@ -187,7 +187,7 @@
                         <outlet property="emailField" destination="Irl-W0-BEV" id="2Zw-xd-YGy"/>
                         <outlet property="errorText" destination="i4d-Hr-R0x" id="yyR-Ob-9aK"/>
                         <outlet property="passwordField" destination="ptf-U8-xF6" id="ppC-5S-AAb"/>
-                        <segue destination="Qqh-4D-6h0" kind="show" id="ecB-7Z-35i"/>
+                        <segue destination="Qqh-4D-6h0" kind="show" identifier="registerWay" id="ecB-7Z-35i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ooM-4N-Z3F" sceneMemberID="firstResponder"/>
@@ -208,7 +208,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="WWq-zF-C6e">
                                         <rect key="frame" x="0.0" y="20" width="375" height="137"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Zz-pG-K4k">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="2@gmail.com" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Zz-pG-K4k">
                                         <rect key="frame" x="48" y="50" width="279" height="45"/>
                                         <color key="textColor" name="BrandBlue"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
@@ -238,13 +238,12 @@
                                         </state>
                                         <connections>
                                             <action selector="loginPressed:" destination="d6G-7k-Aa3" eventType="touchUpInside" id="DYh-x0-ad4"/>
-                                            <action selector="registerPressed:" destination="d6G-7k-Aa3" eventType="touchUpInside" id="uF8-gA-IaZ"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="LOR-OW-gZB">
                                         <rect key="frame" x="0.0" y="20" width="375" height="137"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ln3-hK-aGC">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="twouser" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ln3-hK-aGC">
                                         <rect key="frame" x="49" y="50" width="278" height="45"/>
                                         <color key="textColor" name="BrandBlue"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
@@ -292,14 +291,14 @@
                         <outlet property="emailField" destination="7Zz-pG-K4k" id="f2Y-bC-xql"/>
                         <outlet property="errorLabel" destination="D9S-si-Zp0" id="DZF-XJ-8b3"/>
                         <outlet property="passwordField" destination="Ln3-hK-aGC" id="dqx-3Z-HYC"/>
-                        <segue destination="Qqh-4D-6h0" kind="show" id="5LC-dX-BmT"/>
+                        <segue destination="Qqh-4D-6h0" kind="show" identifier="loginWay" id="5LC-dX-BmT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OoT-Kb-ALG" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1894" y="-321"/>
         </scene>
-        <!--ChatVC-->
+        <!--OneChat-->
         <scene sceneID="j7X-4r-yUU">
             <objects>
                 <viewController id="Qqh-4D-6h0" customClass="ChatVC" customModule="OneChat" customModuleProvider="target" sceneMemberID="viewController">
@@ -334,11 +333,11 @@
                                         <color key="tintColor" name="BrandLightPurple"/>
                                         <state key="normal" image="paperplane.fill" catalog="system"/>
                                         <connections>
-                                            <action selector="sendPressed:" destination="Qqh-4D-6h0" eventType="touchUpInside" id="fxJ-DS-kL9"/>
+                                            <action selector="sendButtonPressed:" destination="Qqh-4D-6h0" eventType="touchUpInside" id="kaO-9F-kQl"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" name="BrandPurple"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstItem="ZXc-LJ-q2g" firstAttribute="top" secondItem="69O-1I-x5J" secondAttribute="top" constant="20" id="Bf1-EJ-Xyu"/>
                                     <constraint firstAttribute="height" constant="60" id="Efg-C3-839"/>
@@ -350,7 +349,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OGc-Vf-PDN"/>
-                        <color key="backgroundColor" red="0.67912214994430542" green="0.84730392694473267" blue="0.92486190795898438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
                             <constraint firstItem="4VJ-JB-VRA" firstAttribute="top" secondItem="OGc-Vf-PDN" secondAttribute="top" id="Egn-6i-Ixz"/>
                             <constraint firstItem="69O-1I-x5J" firstAttribute="leading" secondItem="OGc-Vf-PDN" secondAttribute="leading" id="JS6-dO-PhJ"/>
@@ -361,18 +360,16 @@
                             <constraint firstItem="4VJ-JB-VRA" firstAttribute="leading" secondItem="OGc-Vf-PDN" secondAttribute="leading" id="pVZ-8k-Qmg"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="a81-bi-qvH">
+                    <navigationItem key="navigationItem" title="OneChat" id="a81-bi-qvH">
                         <barButtonItem key="rightBarButtonItem" title="Log out" id="UdR-UV-FMZ">
                             <connections>
-                                <action selector="logOutPressed:" destination="Qqh-4D-6h0" id="eAq-Gp-QWs"/>
+                                <action selector="logOutPressed:" destination="Qqh-4D-6h0" id="Cs9-nW-BZ1"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="chatTableView" destination="4VJ-JB-VRA" id="xvX-i4-NqA"/>
                         <outlet property="messageField" destination="Rbj-wv-fPz" id="ip3-rr-dEo"/>
-                        <outlet property="messageTextfield" destination="Rbj-wv-fPz" id="fwh-3y-851"/>
-                        <outlet property="tableView" destination="4VJ-JB-VRA" id="v5N-9B-rG7"/>
+                        <outlet property="tableView" destination="4VJ-JB-VRA" id="xvX-i4-NqA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qQd-Ig-gzW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -381,7 +378,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ecB-7Z-35i"/>
+        <segue reference="5LC-dX-BmT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="32" height="32"/>
@@ -395,6 +392,9 @@
         <namedColor name="BrandPurple">
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
