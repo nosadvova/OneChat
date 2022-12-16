@@ -7,6 +7,7 @@
 ## Built With
 
 * [UIKit] - To build user interfaces across all Apple platforms.
+* [FireBase] - As a third-party library to manage user profiles and data.
 
 ## Pods to install
 
